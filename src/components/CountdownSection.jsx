@@ -33,7 +33,7 @@ export default function CountdownSection() {
   }, []);
 
   const handleSaveTheDate = () => {
-    const text = encodeURIComponent("Arham & Hareem's Baraat");
+    const text = encodeURIComponent("Huzaifa & Asia's Baraat");
     const details = encodeURIComponent("Wedding ceremony at Qasr-e-Mahtab, Islamabad.");
     const location = encodeURIComponent("Qasr-e-Mahtab, Club Road, Islamabad");
     const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=20271113T150000Z/20271113T190000Z&details=${details}&location=${location}`;

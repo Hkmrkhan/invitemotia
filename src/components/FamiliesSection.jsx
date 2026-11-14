@@ -263,9 +263,9 @@ export default function FamiliesSection({ playSfx }) {
           }`}
         >
           <p className="fm-couple font-cormorant text-2xl sm:text-3xl font-medium tracking-wide text-[#f4f1e8] mb-3">
-            <span className="pearl glints font-serif">Arham</span>{' '}
+            <span className="pearl glints font-serif">Huzaifa</span>{' '}
             <i className="font-allura text-2xl text-[#d4af37] px-1">&amp;</i>{' '}
-            <span className="pearl glints font-serif">Hareem</span>
+            <span className="pearl glints font-serif">Asia</span>
           </p>
 
           <div className="fm-blessing space-y-2">

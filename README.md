@@ -34,7 +34,7 @@ A 100% faithful, interactive React and Tailwind CSS reproduction of [aqdinvites.
 2. **Garden Hero (`hero`):**
    - Night garden scene with water ripples canvas on click/touch
    - Floating jasmine petals drifting on the water
-   - Shimmering pearl calligraphy: *Arham & Hareem*
+   - Shimmering pearl calligraphy: *Huzaifa & Asia*
    - `"Ripple the water"` button & scroll indicator
 3. **Letter for Family & Friends (`letter`):**
    - Muslin fabric texture and scalloped border seams

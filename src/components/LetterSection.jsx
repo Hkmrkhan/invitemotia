@@ -166,7 +166,7 @@ export default function LetterSection({ playSfx }) {
                   With love and duas,
                 </p>
                 <p className="lt-sign font-cormorant font-medium text-2xl text-[#12324a] mt-1 tracking-wide">
-                  Arham &amp; Hareem
+                  Huzaifa &amp; Asia
                 </p>
               </div>
 

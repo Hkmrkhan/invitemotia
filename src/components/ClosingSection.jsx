@@ -98,7 +98,7 @@ export default function ClosingSection({ onReplay, playSfx }) {
           the Qureshi &amp; Chaudhry families
         </p>
         <p className="cl-names font-cormorant text-3xl sm:text-4xl font-medium tracking-wide my-1">
-          <span className="pearl glints font-serif">Arham &amp; Hareem</span>
+          <span className="pearl glints font-serif">Huzaifa &amp; Asia</span>
         </p>
         <p className="cl-date font-cormorant text-xs tracking-widest text-[#aeb9c1] uppercase mt-2 mb-6">
           11 &ndash; 14 November 2027 &middot; Islamabad

@@ -198,7 +198,7 @@ export default function RsvpSection({ playSfx }) {
             <div className="rs-field text-left border-t border-[#e8e1d5] pt-5">
               <label className="block">
                 <span className="rs-label block font-cormorant text-sm tracking-wider text-[#788e9b] mb-1.5">
-                  A note or dua for Arham &amp; Hareem <em className="text-xs opacity-75">(optional)</em>
+                  A note or dua for Huzaifa &amp; Asia <em className="text-xs opacity-75">(optional)</em>
                 </span>
                 <textarea
                   name="wishes"

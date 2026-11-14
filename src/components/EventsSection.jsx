@@ -83,7 +83,7 @@ export default function EventsSection() {
   };
 
   const generateGoogleCalUrl = (ev) => {
-    const text = encodeURIComponent(`Arham & Hareem's ${ev.name}`);
+    const text = encodeURIComponent(`Huzaifa & Asia's ${ev.name}`);
     const details = encodeURIComponent(`${ev.note}\nDress code: ${ev.dressText}`);
     const location = encodeURIComponent(`${ev.place}, ${ev.addr}`);
     return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${text}&dates=${ev.start}/${ev.end}&details=${details}&location=${location}`;
@@ -94,7 +94,7 @@ export default function EventsSection() {
 VERSION:2.0
 PRODID:-//Aqd Invites//Motia Raat//EN
 BEGIN:VEVENT
-SUMMARY:Arham & Hareem's ${ev.name}
+SUMMARY:Huzaifa & Asia's ${ev.name}
 DESCRIPTION:${ev.note} Dress code: ${ev.dressText}
 LOCATION:${ev.place}, ${ev.addr}
 DTSTART:${ev.start}
@@ -105,7 +105,7 @@ END:VCALENDAR`;
     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
     const link = document.createElement('a');
     link.href = window.URL.createObjectURL(blob);
-    link.setAttribute('download', `${ev.name.toLowerCase()}-arham-hareem.ics`);
+    link.setAttribute('download', `${ev.name.toLowerCase()}-huzaifa-asia.ics`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -179,20 +179,20 @@ export default function HeroSection({ playSfx }) {
         className="h-petals absolute inset-0 pointer-events-none z-15"
       />
 
-      {/* Title Calligraphy: Arham & Hareem */}
+      {/* Title Calligraphy: Huzaifa & Asia */}
       <div className="relative z-20 text-center mt-12 px-6 pointer-events-none w-full">
         <h1
           id="heroNames"
           className="font-allura tracking-wider flex flex-col items-center drop-shadow-[0_4px_24px_rgba(0,0,0,0.95)]"
         >
           <span className="text-5xl sm:text-6xl md:text-7xl text-[#f4f1e8] font-normal tracking-wide">
-            Arham
+            Huzaifa
           </span>
           <span className="pearl glints text-3xl sm:text-4xl my-0.5 italic text-[#d4af37]">
             &amp;
           </span>
           <span className="text-5xl sm:text-6xl md:text-7xl text-[#f4f1e8] font-normal tracking-wide">
-            Hareem
+            Asia
           </span>
         </h1>
       </div>
